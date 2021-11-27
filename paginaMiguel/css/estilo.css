@@ -1,0 +1,209 @@
+@import url(linea.css);
+@import url(footer.css);
+
+
+
+* {
+margin: 0%;
+padding: 0%;
+}
+
+
+/* NAVEGADOR */
+
+   nav ul li a {
+        color: white !important;
+        font-size: small !important;
+        margin-right: 20px;
+    }
+    
+    nav ul li a:hover {
+        background-color: orangered !important;
+        border-radius: 5px;
+        text-decoration: underline;
+    }
+    
+
+    .dropdown-menu {
+        background-color: orangered !important;
+    }
+    
+    .navbar-toggler-icon {
+        color: orangered !important;
+    }
+
+    /* SECCION VIDEO PRINCIPAL */
+    video {
+        margin-top: 100px !important;
+        height: 85vh !important;
+    }
+
+/* TITULOS PRINCIPALES */
+
+h2 {
+    text-transform: uppercase;
+    color:rgb(8, 59, 83) !important;
+    font-weight: 600 !important;
+}
+
+.title-servicios {
+    padding: 5px !important;
+    border-bottom: 1px solid orangered !important;
+    width: 80px !important;
+    
+}
+/* SECCION SERVICIOS */
+
+.tarjetas-servicios .card-img {
+        height: 10% !important;
+    }
+    
+.tarjetas-servicios{
+    border: none;
+    margin: 0;
+        /* font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif !important; */
+    font-size: 16px;
+    /* font-style: italic; */
+
+
+}
+ .tarjetas-servicios {
+    color: #6c757d !important;
+}
+
+
+.margen-derecho-card {
+    margin-right: 10px!important;
+    }
+
+    
+/* .flecha {
+    color: orangered;
+    cursor: pointer;
+
+} */
+
+/* PROYECTOS  */
+
+.title-proyectos {
+    text-align: center !important;
+    border-top: 1px solid orangered !important;
+    
+}
+
+.borde-proyectos {
+    border-right: 1px solid orangered !important;
+    border-bottom: 1px solid orangered !important;
+
+}
+
+
+.proyectos h3 {
+    font-size: 16px !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+}
+
+.proyectos h4 {
+    
+    font-size: 18px;
+    font-weight: 600 !important;
+}
+
+
+.title-proyectos {
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+/* SECCION NOSOTROS */
+
+
+.columna-nosotros {
+margin-top: 8vh;
+text-align: justify;
+margin-left: 10vh;
+font-size: 17px !important;
+letter-spacing: normal !important;
+text-align: justify;
+padding-left: 50px;
+
+}
+
+.columna-nosotros p {
+padding: 30px;
+border-left: 2px solid orangered;
+color: #6c757d !important;
+}
+
+.boton-nosotros{
+width: 120px;
+margin-left: 500px;
+}
+
+/* BARRA DE DATOS */
+
+.barra {
+    height: 45vh;
+    /* background-color: orangered; */
+    color:rgb(8, 59, 83);
+
+}
+
+@media (min-width: 576px) { 
+
+    .barra {
+        height: 30vh;
+    }
+    .columna-barra {
+        border-right: 4px solid orangered;
+        }
+  
+    }
+       
+    @media (min-width: 992px) { 
+    
+        .barra {
+            height: 20vh;
+        }
+    
+        .columna-barra {
+            margin-top: 30px !important;
+       }
+
+     
+    }
+
+    
+/* HISTORIA */
+
+#historia {
+    margin-top: 120px !important;
+}
+
+/* SECCION CONTACTOS  */
+
+textarea {
+    min-height: 200px;
+    max-height: 200px;
+}
+
+.title-contactos {
+    padding: 10px ;
+    border-left: 2px solid orangered !important;
+    }
+
+    h6 {
+        font-size: 12px;
+    }
+    /* .ref::after {
+        font-weight: negrita;
+        color: orangered;
+        content: "Continuar leyendo";
+        cursor: pointer;
+      } */
+
+      /* CONTACTOS */
+      

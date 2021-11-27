@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+footer  {
+  background: black !important;
+  /* font-family: 'PT Sans Narrow', sans-serif; */
+  text-align: center;
+  color:white;
+  width: auto;  
+  font-size:32px;
+  height: 50vh;
+  padding: 20px 0px !important;
+ 
+}
+
+
+footer ul li a{
+  font-size: 14px;
+  color: white !important;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+  color: orangered !important;
+  
+}
+
+
+footer .copy{
+  margin-top: 20px !important;
+  font-size: 14px;
+  color: white;
+}
+
+
+/* animación footer */
+
+
+.marca{
+  display:inline-block;
+  overflow:hidden;
+  white-space:nowrap;
+  padding-top: 0px;
+  font-size: 17px;
+  color: #999;
+}
+
+.marca div:first-of-type {   
+  animation: showup 7s infinite;
+}
+
+.marca div:last-of-type {
+  width:0px;
+  animation: reveal 7s infinite;
+}
+
+.marca div:last-of-type span {
+  margin-left:-655px;
+  animation: slidein 7s infinite;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes showup {
+    0% {opacity:0;}
+    20% {opacity:1;}
+    80% {opacity:1;}
+    100% {opacity:0;}
+}
+
+@keyframes slidein {
+    0% { margin-left:-800px; }
+    20% { margin-left:-800px; }
+    35% { margin-left:0px; }
+    100% { margin-left:0px; }
+}
+
+@keyframes reveal {
+    0% {opacity:0;width:0px;}
+    20% {opacity:1;width:0px;}
+    30% {width:355px;}
+    80% {opacity:1;}
+    100% {opacity:0;width:355px;}
+}
+
+
+
+
