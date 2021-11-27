@@ -5,9 +5,10 @@ footer  {
   /* font-family: 'PT Sans Narrow', sans-serif; */
   text-align: center;
   color:white;
-  width: auto;  
+  width: 100%;  
   font-size:32px;
   height: 50vh;
+  -webkit-height: 70vh;
   padding: 20px 0px !important;
  
 }
