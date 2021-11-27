@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0%;
+}
+
+.principal {
+    display: flex;
+    flex-wrap: wrap; /*que se vaya para abajo cuando ocupe el 100% */
+    justify-content: flex-end; 
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.cuadro{
+    background-color: aqua;
+    width: 20%;
+    /* height: 200px; */
+    overflow: auto;
+
+    /* margin: 10px 10px;
+    float: left; /*Estar pendiente que llegue al 100%*/
+    /* border: 80px solid bisque;
+    box-sizing: border-box; */ 
+} 
+
+.cuadro p{
+    font-size: x-large;
+}
+
+.cuadro p::after{
+    content: "No me copies";
+}
+
+.cuadro p::before {
+    content: "No me copies";
+}
+
+.cuadro p::first-letter {
+    content: "lorem";
+}
+
+footer {
+    background-color: blueviolet;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    color:white;
+}
+

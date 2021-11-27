@@ -1,0 +1,17 @@
+body {
+   background-image: url('../img/fondo.jpg') ;
+    background-size: 80%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+
+
+
+.btn-primary {
+    background-color: aqua;
+}
+.btn-primary:hover {
+    background-color: violet;
+}

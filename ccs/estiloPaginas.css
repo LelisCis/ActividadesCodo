@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400&display=swap');
+
+* {
+font-family: 'Inter', sans-serif;
+margin: 0px;
+padding: 0px;
+overflow: hidden; 
+}
+
+header {
+
+background-image: url(/codoacodocomision2160/img/header.jpg);
+background-size: 1200px;
+height: 200px;
+display: flex;
+justify-content: center;
+position: fixed;
+top: -100px;
+width: 100%;
+} 
+
+h1 {
+    background-color:rgba(255, 60, 1, 0.8);
+    color: white;
+    height: 30px;
+    padding: 2px; 
+}
+
+article {
+    top:500px;
+    background: linear-gradient(rgba(251, 51, 0, 0.6), rgb(253, 253, 253));
+    width: 100%;
+
+    height: 700px;
+    padding-top: 150px;
+}
+
+article h2 {
+    text-align: center;
+}
+
+nav {
+    position:fixed; 
+    background-color: rgb(37, 190, 195);
+    padding: 15px;
+    width: 100%;
+    text-align: right;
+}
+
+nav ol li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    color: rgba(251,251,251,0.5);
+}
+nav li:hover {
+    cursor: pointer;
+    background: #fff ; 
+} 
+
+
+nav ol li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li a:hover{
+    color: orangered;
+}
+
+footer {
+    background: rgb(37, 190, 195);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    text-align: center;
+    color: white;
+}
+

@@ -1,0 +1,24 @@
+
+#cuadrados {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rojo{
+    background-color: red;
+    color: yellow;
+    width: 320px;
+    height: 320px;
+    
+}
+
+.negro {
+    background-color: black;
+    color: white;
+    width: 320px;
+    height: 320px;
+}
+
+h2 {
+    margin-top: 0px;
+}
